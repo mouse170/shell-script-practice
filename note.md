@@ -1,4 +1,4 @@
 # (()) howtouse
 ```bash
-total=$(($firstnu*$secondnu))
+total=$(($firstnu*$secondnu)) #for calculate
 ```
