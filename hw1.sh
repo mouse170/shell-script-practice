@@ -12,3 +12,4 @@ year=$((`date +%Y`+1))
 total_d=$(($((`date --date="$year$bir" +%s`-`date +%s`))/60/60/24))
 echo "Your birthday will be $total_d later"
 fi
+echo "nothing"
