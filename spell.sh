@@ -3,7 +3,7 @@
 
 spell="ispell -l"
 
-if [ $# lt 1 ]; then
+if [ $# -lt 1 ]; then
     echo "Uasge:$0 word or words" >&2
     exit
 fi
