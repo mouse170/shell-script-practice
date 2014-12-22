@@ -17,4 +17,9 @@ ${foo}
 ```bash
 docker run -i -t ubuntu /bin/bash
 ```
-
+# Docker database file is lock的解決方法
+```bash
+sudo systemctl stopdocker
+sudo rm -rf /var/lib/docker/ -rf
+sudo systemctl start docker
+```
