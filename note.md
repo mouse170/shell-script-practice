@@ -13,4 +13,8 @@ filename = foo;
 ${foo}
 ```
 
-# 測試
+# Docker進入Shell的指令
+```bash
+docker run -i -t ubuntu /bin/bash
+```
+
