@@ -23,3 +23,9 @@ sudo systemctl stopdocker
 sudo rm -rf /var/lib/docker/ -rf
 sudo systemctl start docker
 ```
+
+# 格式化USB的指令
+```bash
+lsblk #查詢目前掛載的磁區
+sudo mkfs -t fat -I /dev/partition　格式化為ntfs
+```
