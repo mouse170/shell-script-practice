@@ -40,3 +40,8 @@ kill process
 ```bash
 du -hs * | sort -h
 ```
+
+# 執行mjpg-streamer的指令
+```bash
+sudo ./mjpg_streamer -i "./input_uvc.so -y -r 640x480" -o "./output_http.so -w ./www"
+```
